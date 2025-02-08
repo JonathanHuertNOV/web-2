@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos de Desarrollo Web</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #ff4757;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .column {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .column:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .column h2 {
+            font-family: 'Georgia', serif;
+            color: #ff4757;
+            margin-top: 0;
+        }
+        .column p {
+            color: #666;
+        }
+        .column:nth-child(odd) h2 {
+            color: #2ed573;
+        }
+        .column:nth-child(even) h2 {
+            color: #1e90ff;
+        }
+        footer {
+            background-color: #ff4757;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Desarrollo Web: Conceptos Clave</h1>
+    </header>
+
+    <div class="container">
+        <div class="column">
+            <h2>Front-End</h2>
+            <p>El Front-End se enfoca en la interfaz de usuario y la experiencia del cliente. Utiliza HTML, CSS y JavaScript.</p>
+        </div>
+        <div class="column">
+            <h2>Back-End</h2>
+            <p>El Back-End maneja la lógica del servidor, las bases de datos y la funcionalidad detrás de la interfaz.</p>
+        </div>
+        <div class="column">
+            <h2>URL</h2>
+            <p>Una URL es la dirección única que permite acceder a recursos en la web, como páginas o archivos.</p>
+        </div>
+        <div class="column">
+            <h2>DNS</h2>
+            <p>El DNS traduce nombres de dominio en direcciones IP, permitiendo que los navegadores encuentren servidores web.</p>
+        </div>
+        <div class="column">
+            <h2>Navegador Web</h2>
+            <p>Un navegador web es una aplicación para acceder y visualizar páginas web, como Chrome o Firefox.</p>
+        </div>
+        <div class="column">
+            <h2>HTML</h2>
+            <p>HTML es el lenguaje estándar para crear y estructurar el contenido de las páginas web.</p>
+        </div>
+        <div class="column">
+            <h2>CSS</h2>
+            <p>CSS describe la presentación de un documento HTML, incluyendo colores, fuentes y diseño.</p>
+        </div>
+        <div class="column">
+            <h2>JavaScript</h2>
+            <p>JavaScript añade interactividad y dinamismo a las páginas web.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Conceptos de Desarrollo Web</p>
+    </footer>
+</body>
+</html>
